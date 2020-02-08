@@ -16,6 +16,7 @@ On RedHat-based distributions, requires the EPEL repository (you can simply add 
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
+    redis_pidfile: "redis"
     redis_port: 6379
     redis_bind_interface: 127.0.0.1
 
